@@ -22,6 +22,9 @@ public class Circunferencia extends Figura implements INomina {
 		System.out.println("area " + area() + " perimetro " + perimetro());
 	}
 	
-	
+	public void imprimir (int prueba) {
+		super.imprimir();
+		System.out.println("area " + area() + " perimetro " + perimetro());
+	}
 
 }
